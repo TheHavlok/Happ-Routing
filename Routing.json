@@ -1,0 +1,46 @@
+{
+  "Name": "LegitimVPN",
+  "GlobalProxy": "true",
+  "RouteOrder": "block-proxy-direct",
+  "RemoteDNSType": "DoU",
+  "RemoteDNSDomain": "https://dns.google/dns-query",
+  "RemoteDNSIP": "8.8.8.8",
+  "DomesticDNSType": "DoU",
+  "DomesticDNSDomain": "https://common.dot.dns.yandex.net/dns-query",
+  "DomesticDNSIP": "77.88.8.8",
+  "Geoipurl": "https://github.com/TheHavlok/Happ-Routing/raw/refs/heads/main/geoip.dat",
+  "Geositeurl": "https://github.com/TheHavlok/Happ-Routing/raw/refs/heads/main/geosite.dat",
+  "LastUpdated": "1770298888",
+  "DnsHosts": {},
+  "DirectSites": [
+    "geosite:private",
+    "geosite:category-ru",
+    "geosite:microsoft",
+    "geosite:apple",
+    "geosite:google-play",
+    "geosite:epicgames",
+    "geosite:riot",
+    "geosite:escapefromtarkov",
+    "geosite:steam",
+    "geosite:twitch",
+    "geosite:pinterest",
+    "geosite:faceit"
+  ],
+  "DirectIp": [
+    "geoip:private",
+    "geoip:direct"
+  ],
+  "ProxySites": [
+    "geosite:twitch-ads"
+  ],
+  "ProxyIp": [],
+  "BlockSites": [
+    "geosite:win-spy",
+    "geosite:torrent",
+    "geosite:category-ads"
+  ],
+  "BlockIp": [],
+  "DomainStrategy": "IPIfNonMatch",
+  "FakeDNS": "false",
+  "UseChunkFiles": "true"
+}
